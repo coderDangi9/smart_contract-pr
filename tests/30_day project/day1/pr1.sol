@@ -17,3 +17,16 @@ contract Mapping{
     }
 
 }
+contract NestedMap{
+    mapping(address =>mapping(uint =>bool)) nested;
+
+    function getdata(address _addr, uint _x)public view returns(bool){
+        return (nested[_addr][_x]);
+    }
+    function setdata(address _addr, uint _x, bool _bool)public{
+        nested[_addr][_x]=_bool;
+    }
+    function remove(address _addr, uint _x)public {
+        delete nested[_addr][_x];
+    }
+}
