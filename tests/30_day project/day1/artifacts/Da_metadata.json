@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/30_day project/day1/pr1.sol": "test"
+			"tests/30_day project/day1/pr1.sol": "Da"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"tests/30_day project/day1/pr1.sol": {
-			"keccak256": "0x1bdd77d85a3056f978827ec779fe2c0653b0c72e265259308985e25a03a000b4",
+			"keccak256": "0xe7a8a1678ee38214ad0d7956a9172c69b32b79359fcfe940abc039f385a409a6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a4e9f807155220c1e1d6f51c726c122c6161ad2d9a88f3b3c136e78a5c9df6e1",
-				"dweb:/ipfs/Qmc6mi4PeacyckVDhhubtBX47VwrDYhXB2ZniQ5Fx539qP"
+				"bzz-raw://52e44f62313e006aaa6c43e2857da6fba1f26cb03d85e346e7a5cb61b837d24b",
+				"dweb:/ipfs/QmPpXJ1qMMHRYSMJ91ghX3XjoEwfuhqA1tEhwLYXhffdBL"
 			]
 		}
 	},
