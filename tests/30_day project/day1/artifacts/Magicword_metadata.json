@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_data",
+						"type": "string"
+					}
+				],
+				"name": "check",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/30_day project/day1/pr2.sol": "Magicword"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/30_day project/day1/pr2.sol": {
+			"keccak256": "0x0df6a2f31e0509a258f122f5147fe087ee875ad73e7dc2bd8a847f18fe85c867",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f25f929a54cadba6ac4015e681a76308b012025fa032666a3b3a6d39be075f3b",
+				"dweb:/ipfs/QmRF4XNMMRzBUpmrwgeaRngfP7KY4H9rVgXetkWXhCcAxn"
+			]
+		}
+	},
+	"version": 1
+}
