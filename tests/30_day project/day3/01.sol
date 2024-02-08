@@ -33,10 +33,10 @@ contract MultiSignature_Wallet{
         require(_txindex <transactions.length, "tx doesn't exit");
         _;
     }
-    modifier notExecuted(uint _txindex){
-        require(!transactions[_txindex].executed,"tx already executed");
-        _;
-    }
+    // modifier notExecuted(uint _txindex){
+    //     require(!transactions[_txindex].executed,"tx already executed");
+    //     _;
+    // }
     modifier notConfirmed(uint _txindex){
         require(!isConform[_txindex][msg.sender],"tx already confirm");
         _;
