@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "g",
+						"type": "string"
+					}
+				],
+				"name": "encode",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "g",
+						"type": "string"
+					}
+				],
+				"name": "encodePacked",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/30_day project/day8/01.sol": "eetest2"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/30_day project/day8/01.sol": {
+			"keccak256": "0xa2ce68e6d7df7358893bf5e2e4f1201fc7d076247500f534ba02269afd6910e3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ca1eabe844f6945135b921b4bcbdba89a86e32879a8c8403460397605c3502c4",
+				"dweb:/ipfs/QmVCXfn6FDmV7NpDAsvym55jkdjG6gPDZYfwJ4s3uhtnzi"
+			]
+		}
+	},
+	"version": 1
+}

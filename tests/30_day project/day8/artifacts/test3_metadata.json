@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "presentHash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "previousHash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/30_day project/day8/01.sol": "test3"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/30_day project/day8/01.sol": {
+			"keccak256": "0x2aa108977db5283161a549da6643eb165db32475601733ffb361a6c9fe8064e1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bd23af2b70b3359532c7a3f5070086b6034362e15bc965cc5cce500ce399272d",
+				"dweb:/ipfs/Qmeu1r6Ger5Dgc3VzvMBTFH2AAnLb1PkZEuKKbmnxU1hr3"
+			]
+		}
+	},
+	"version": 1
+}

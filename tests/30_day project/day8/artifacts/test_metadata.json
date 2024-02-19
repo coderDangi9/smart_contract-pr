@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "getdata",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "whats_Your_rollno",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/30_day project/day8/01.sol": "test"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/30_day project/day8/01.sol": {
+			"keccak256": "0xba5f3b50c123c0ef0706577f5bda250acd654789c36f9649791a7bb1634aae5b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://293189927ed31d5f6064eada55b3d945022ad7ebd75f88a203617d66077090e0",
+				"dweb:/ipfs/QmcM5ZJakGyqo7X7AfYqH4MgH9SLJEqCoVGPMHUUz41KCR"
+			]
+		}
+	},
+	"version": 1
+}
