@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "generateBytes",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/30_day project/day7/01.sol": "playGame"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/30_day project/day7/01.sol": {
+			"keccak256": "0x9c5fd0857acae662ba445c02773b359df3447c07f2672ad5a98d2efb9cdc027d",
+			"urls": [
+				"bzz-raw://5db2e68baa9fd1f44bc180d529512ab44b1754d1054bae8242d5dbcac8ab0135",
+				"dweb:/ipfs/QmcmpdDcXPgnjM699QAZBLC1nZakWxQC144YBGjyaefZuJ"
+			]
+		}
+	},
+	"version": 1
+}
