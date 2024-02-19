@@ -13,8 +13,8 @@ contract Hassing{
 }
 // Guess the Magic word which include in bytescode.
 contract Magicword{
-    bytes32  answer =  0xb44f08808177cacab2387fe0840de5512051cfd6a406b66077a263edaf43a8b6;
+    bytes32  ans =  0xb44f08808177cacab2387fe0840de5512051cfd6a406b66077a263edaf43a8b6;
     function check(string memory _data)public view returns(bool){
-        return (keccak256(abi.encodePacked(_data))==answer);
+        return (keccak256(abi.encodePacked(_data))==ans);
     }
 }
