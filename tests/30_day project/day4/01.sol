@@ -42,7 +42,7 @@ contract TestMerkleProof is Markelproof{
                 );
 
             }
-            offset +=n;
+            offset =offset +n;
             n =n/2;
         }
     }
