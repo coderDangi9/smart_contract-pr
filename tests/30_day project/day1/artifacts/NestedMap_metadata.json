@@ -61,7 +61,7 @@
 					},
 					{
 						"internalType": "bool",
-						"name": "_bool",
+						"name": "Bool",
 						"type": "bool"
 					}
 				],
@@ -99,11 +99,11 @@
 	},
 	"sources": {
 		"tests/30_day project/day1/pr1.sol": {
-			"keccak256": "0x9a289315fb0a3399dd1d13726aa08af7f67efb27a1120593f5e0aab7e27d8d9a",
+			"keccak256": "0x54c42466b4bd0dec58b4b0bcff4309ff8e2edda2eef2f29493ab201c774843b1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9f797db457f27de482c5280362b120294eb2898a96f1ef32e141422302e445ba",
-				"dweb:/ipfs/QmUCFFNYFrGNFZ42ND4NMJ3Zaa6RCJZXAZzo4yt2CJZX6S"
+				"bzz-raw://0800e8a550c4dbd12da72283dadfda7e95156f4bc393db68a4a4a918b2c4b595",
+				"dweb:/ipfs/QmQ8MsV88fWtunzsuWHoBN6BHxi9avvA8LBzKCrd1fk4HT"
 			]
 		}
 	},
