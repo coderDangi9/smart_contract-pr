@@ -20,8 +20,8 @@ contract Wallet{
     function getbalance()public payable returns(uint){
         return address (this).balance;
     }
-    function transferAmount(address _addr, uint amount)public payable{
-        (bool sent, ) = _addr.call{value : amount}("");
+    function transferAmount(address addr, uint amount)public payable{
+        (bool sent, ) = addr.call{value : amount}("");
         require(sent,"Failed to transfer ether");
     }
 

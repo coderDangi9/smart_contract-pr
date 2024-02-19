@@ -40,7 +40,7 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_addr",
+						"name": "addr",
 						"type": "address"
 					},
 					{
@@ -100,11 +100,11 @@
 	},
 	"sources": {
 		"tests/30_day project/day2/01.sol": {
-			"keccak256": "0xbf0950f3dc484f3953a32d94be5551735f424d20098cbdc9433af7c0a834d758",
+			"keccak256": "0x4cf8249b667b2f3e71b17ea54a893af81c0dcb70f2a05023289ab7b2179c779a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e7a09ebcd973da5662ad69fd953f8e39fa37b50091db0c1033d08fe900c06ca1",
-				"dweb:/ipfs/QmP6tJWd8LxhtNMXTaBb2ZhNGJVdkzMo8r9YYdQFgFh62W"
+				"bzz-raw://5827e518e95ea7a6a7a0947fde4fd82c94b6561e14fa33507b33910254fe4797",
+				"dweb:/ipfs/QmUKaDRkofR2wW5TAecFs2hTAzSdFyVRxMMwoEnRgie67T"
 			]
 		}
 	},
