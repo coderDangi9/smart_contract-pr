@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "readData",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/practice/01.sol": "D"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/practice/01.sol": {
+			"keccak256": "0xdc7fb5bd6496f185f29cb0dcfb3931050a557643386a47386d8b236c89f9d4a7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d97c7a159adcaaabf8173bc51c7e91074651691fb41d1185bd4512d86a1493b5",
+				"dweb:/ipfs/QmP8PJtFG65RRNnYKLh8rNQJZp1UaiMB9RDU7gijWBB9ir"
+			]
+		}
+	},
+	"version": 1
+}
